@@ -1,4 +1,10 @@
 # LaTeX-my_little_pony-template
+![GitHub stars](https://img.shields.io/github/stars/yagamilighttuski/LaTeX-my_little_pony-template.svg?style=social)
+[![Hugging Face Models](https://img.shields.io/badge/models-Hugging%20Face-0F4367.svg)](https://huggingface.co/yagamilighttsuki)
+
+
+
+
 Since I'm a big fan of My Little Pony, I created this LaTeX template. I wish to convey my passion through this, and also hope it can assist those who need it.
 (P.S. .aux, .gz and .log files are not important. You probably don't need to download them. The really useful files for you are .tex files (allowing you to compile and modify by yourself, and add new features) and .pdf files (allowing you to preview to ensure it is the template you want). I put .aux, .gz and .log files here to ensure the integrity of information, just in case someone needs them.)
 # LaTeX environment
