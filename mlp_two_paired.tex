@@ -8,9 +8,25 @@
 \usepackage{pgfmath}
 \usepackage{amsmath}
 \usepackage{listings}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily,
+  keywordstyle=\color{blue},
+  stringstyle=\color{purple},
+  commentstyle=\color{gray},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  frame=single,
+  breaklines=true,
+  breakatwhitespace=true,
+  showstringspaces=false,
+  tabsize=2
+}
 \usepackage{booktabs}
 \usepackage[margin=1in, headheight=30pt, bottom=1in]{geometry}
+\usepackage{xeCJK}
 
+\setCJKmainfont{SimSun}
 \definecolor{ponyPink}{RGB}{226,87,168}
 \definecolor{ponyPurple}{RGB}{119,105,165}
 
@@ -115,6 +131,17 @@ print("Factorial of", num, "is", factorial(num))
 	\caption{Demo TikZ Picture}
 	\label{fig:demo-tikz}
 \end{figure}
+\section{Demo Chinese}
+这是一个中文句子的示例。
+我喜欢小马宝莉。
+中文也可以很好地显示在 LaTeX 文档中。
+《小马宝莉：友情就是魔法》（英语：My Little Pony: Friendship is Magic，台湾译《彩虹小马：友情就是魔法》）是一部基于孩之宝小马宝莉系列玩具与动画作品,
+由萝伦·浮士德为孩之宝开发的儿童奇幻动画剧集，常被称之为小马宝莉第四代（“G4”）产品，
+由美国有线电视频道The Hub（Discovery Family的前身）于2010年10月10日首播。
+该剧起初由萝伦·浮士德担任创意总监与执行制作，她寻求突破小马宝莉系列早已存在的“女孩”本质，
+并依循着孩之宝对于“教育与资讯”内涵与玩具系列市场的建议，创造出更深刻的角色与更大胆的设定。
+浮士德已于第二季中引退，由监制导演杰森·蒂森接手第二季之后的执行制作。
+\section{Random words}
 \lipsum[9-40]
 \end{document}
 
